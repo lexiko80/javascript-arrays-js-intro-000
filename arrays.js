@@ -29,3 +29,7 @@ var destructivelyRemoveElementFromBeginningOfArray = (theArray) => {
   theArray.shift();
   return theArray
 }
+
+var removeElementFromBeginningOfArray = (theArray) => {
+  return theArray.slice(1)
+}
