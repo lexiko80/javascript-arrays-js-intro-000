@@ -4,6 +4,5 @@ var chocolateBars = ['snickers',
 'skittles']
 
 var addElementToBeginningOfArray = (theArray, theElement) => {
-  newArray = [...theArray, theElement];
-  return newArray
+  return [...theArray, theElement];
 }
