@@ -5,5 +5,5 @@ var chocolateBars = ['snickers',
 
 addElementToBeginningOfArray => (theArray, theElement){
   newArray = [...theArray, theElement];
-  return newArray 
+  return newArray
 }
